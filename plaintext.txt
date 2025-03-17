@@ -1,0 +1,21 @@
+my_project/
+├── app/
+│   ├── __init__.py
+│   ├── main.py            # Ponto de entrada da aplicação
+│   ├── gui/               # Contém a interface gráfica
+│   │   ├── __init__.py
+│   │   ├── main_window.py # Janela principal da GUI
+│   │   ├── widgets.py     # Componentes reutilizáveis da GUI
+│   │   └── utils.py       # Funções utilitárias relacionadas à GUI
+│   ├── models/            # Modelos de dados
+│   └── controllers/       # Lógica de controle
+│
+├── assets/                # Imagens, ícones, fontes, etc.
+│   ├── images/
+│   └── icons/
+│
+├── requirements.txt       # Dependências do Python (Tkinter, PyQt, etc.)
+├── tests/                 # Testes automatizados
+│   ├── __init__.py
+│   └── test_app.py
+└── README.md              # Documentação

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "wdm"
+version = "0.1.0"
+description = "Web Drivers Management Tool and Web Driver Manager"
+authors = ["monjioilita <monjioilita@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+selenium = "^4.29.0"
+webdriver-manager = "^4.0.2"
+flet = "^0.27.6"
+pandas = "^2.2.3"
+numpy = "^2.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
